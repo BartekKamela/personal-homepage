@@ -1,4 +1,4 @@
-import { ThemeSwitch } from './common/ThemeSwitch';
+import { ThemeSwitch } from '../../common/ThemeSwitch';
 
 function App() {
   return (
