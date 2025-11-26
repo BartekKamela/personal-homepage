@@ -1,6 +1,6 @@
 import { ThemeSwitch } from '../../common/ThemeSwitch';
 
-function App() {
+export const App = () => {
   return (
     <ThemeSwitch />
   );
