@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './core/App/App';
 import reportWebVitals from './reportWebVitals';
-import GlobalStyle from './core/App/globalStyles';
+import GlobalStyle from './core/App/GlobalStyle';
 import Normalize from 'react-normalize';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
