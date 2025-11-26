@@ -1,6 +1,6 @@
 import { ThemeSwitch } from "../../../common/ThemeSwitch"
 
-export default PersonalHomepage = () => {
+export const PersonalHomepage = () => {
   return (
     <ThemeSwitch />
   )
