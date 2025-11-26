@@ -1,7 +1,8 @@
-import { ThemeSwitch } from "../../../common/ThemeSwitch"
+import { ThemeSwitch } from "../../../common/ThemeSwitch";
+import { Container } from "./styled";
 
-export const PersonalHomepage = () => {
-  return (
-    <ThemeSwitch />
-  )
-}
+export const PersonalHomepage = () => (
+    <Container>
+      <ThemeSwitch />
+    </Container>
+);
