@@ -1,9 +1,13 @@
-import { ThemeSwitch } from '../../common/ThemeSwitch';
-import PersonalHomepage from '../../features/personalHomepage/PersonalHomepage';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme';
+import { PersonalHomepage } from '../../features/personalHomepage/PersonalHomepage';
+
 
 export const App = () => {
   return (
-    <PersonalHomepage />
+    <ThemeProvider theme={ theme }>
+      <PersonalHomepage />
+    </ThemeProvider>
   );
 }
 
