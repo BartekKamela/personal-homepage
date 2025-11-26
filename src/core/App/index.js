@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
 import GlobalStyle from './GlobalStyle';
-import Normalize from 'react-normalize';
+import Normalize from 'styled-normalize';
 import { PersonalHomepage } from '../../features/personalHomepage/PersonalHomepage';
 
 
