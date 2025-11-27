@@ -1,11 +1,16 @@
+import { useDispatch, useSelector } from "react-redux";
+import { selectIsDarkTheme, toggleTheme } from "../themeSlice";
 import { Button, Wrapper, Text, Box, IconWrapper, Icon } from "./styled"
 
 export const ThemeSwitch = () => {
+  const isDarkTheme = useSelector(selectIsDarkTheme);
+    const dispatch = useDispatch();
+
   return (
     <Wrapper>
-      <Button>
+      <Button onClick={() => dispatch(toggleTheme())}>
         <Text>
-          DARK MODE OFF
+          Dark mode {isDarkTheme ? "on" : "off"}
         </Text>
         <Box>
           <IconWrapper>
