@@ -29,13 +29,14 @@ export const Box = styled.span`
   border: 1px solid;
   border-radius: 15px;
   padding: 3px;
+  background: ${({ theme }) => theme.colors.themeSwitch.background};
 `;
 
 export const IconWrapper = styled.span`
   display: flex;
   padding: 3px;
   border-radius: 50%;
-  background: #6E7E91;
+  background: currentColor;
   transition: transform 0.3s;
 `;
 
@@ -43,5 +44,5 @@ export const Icon = styled(SunIcon)`
   color: white;
   height: 14px;
   width: 14px;
-  fill: currentColor;
+  color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;
