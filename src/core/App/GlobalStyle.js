@@ -11,7 +11,10 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Inter", sans-serif;
-    color: #6E7E91;
-    background: #D1D5DA4D;
+    color: ${({ theme }) => theme.colors.site.text};
+    background: ${({ theme }) => theme.colors.site.background};
+    letter-spacing: 0.05em;
+    word-break: break-word;
+    padding-bottom: 108px;
   }
 `;
