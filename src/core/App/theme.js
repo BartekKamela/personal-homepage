@@ -30,19 +30,25 @@ export const themeLight = {
       background: colorNames.whiteLilac,
       text: colorNames.slateGray,
     },
-  }
-
+    themeSwitch: {
+    background: colorNames.mercury,
+    icon: colorNames.white,
+  },
+  },
 };
 
 export const themeDark = {
   ...common,
   colors: {
-        primary: colorNames.dodgerBlue,
-        textPrimary: colorNames.white,
-        site: {
-            background: colorNames.mineShaft,
-            text: colorNames.white,
-        },
-  }
-
+    primary: colorNames.dodgerBlue,
+    textPrimary: colorNames.white,
+    site: {
+      background: colorNames.mineShaft,
+      text: colorNames.white,
+    },
+    themeSwitch: {
+    background: colorNames.doveGray,
+    icon: colorNames.mineShaft,
+  },
+  },
 };
