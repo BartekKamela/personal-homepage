@@ -13,7 +13,7 @@ export const ThemeSwitch = () => {
           Dark mode {isDarkTheme ? "on" : "off"}
         </Text>
         <Box>
-          <IconWrapper>
+          <IconWrapper moveToRight={!isDarkTheme}>
             <Icon />
           </IconWrapper>
         </Box>
