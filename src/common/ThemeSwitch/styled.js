@@ -29,7 +29,7 @@ export const Box = styled.span`
   border: 1px solid;
   border-radius: 15px;
   padding: 3px;
-  background: ${({ theme }) => theme.colors.themeSwitch.background};
+  background: ${({ theme }) => theme.colors.boxBackground};
 `;
 
 export const IconWrapper = styled.span`
