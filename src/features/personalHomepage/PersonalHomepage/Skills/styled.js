@@ -3,7 +3,6 @@ import { ReactComponent as DotIcon} from "./bullet.svg";
 
 export const Section = styled.section`
   width: 1216px;
-  height: 404px;
   margin-top: 73px;
   padding: 32px;
   border-radius: ${({ theme }) => theme.boxRadiusSmall};;
