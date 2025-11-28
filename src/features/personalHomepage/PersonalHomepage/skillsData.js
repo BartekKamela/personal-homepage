@@ -27,3 +27,12 @@ export const skills = [
     "Trello",
     "Teamwork",
 ];
+
+export const nextSkills = [
+"JS classes",
+"Unit testing",
+"Node.js",
+"TypeScript",
+"Cypress",
+"React Context",
+];
