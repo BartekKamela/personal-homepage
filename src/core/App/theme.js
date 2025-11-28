@@ -18,7 +18,9 @@ const colorNames = {
 };
 
 export const common = {
-
+  boxShadow: "0px 16px 58px 0px #090A3308",
+  //box-shadow: 0px -2px 50px 0px #090A3305;
+  borderRadiusSmall: "4px",
 };
 
 export const themeLight = {
@@ -33,7 +35,9 @@ export const themeLight = {
     themeSwitch: {
     background: colorNames.mercury,
     icon: colorNames.white,
-  },
+    },
+    boxBackground: colorNames.white,
+    headerLine: colorNames.mercury,
   },
 };
 
@@ -49,6 +53,8 @@ export const themeDark = {
     themeSwitch: {
     background: colorNames.doveGray,
     icon: colorNames.mineShaft,
+    },
+    boxBackground: colorNames.mineShaftLighter,
+    headerLine: colorNames.tundora,
   },
-  },
-};
+  };
