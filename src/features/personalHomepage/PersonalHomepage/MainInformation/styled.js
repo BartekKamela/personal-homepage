@@ -10,7 +10,7 @@ export const Wrapper = styled.header`
 `;
 
 export const Photo = styled.img`
-  width: 384px;
+  width: 30vw;
   max-width: 384px;
   border-radius: 50%;
 `;
