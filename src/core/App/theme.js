@@ -18,6 +18,11 @@ const colorNames = {
 };
 
 export const common = {
+  breakpoints: {
+    mobileMax: 767,
+    tabletVerticalMax: 991,
+    tabletHorizontalMax: 1199,
+  },
   boxShadow: "0px 16px 58px 0px #090A3308",
   //box-shadow: 0px -2px 50px 0px #090A3305;
   borderRadiusSmall: "4px",
@@ -33,8 +38,8 @@ export const themeLight = {
       text: colorNames.slateGray,
     },
     themeSwitch: {
-    background: colorNames.mercury,
-    icon: colorNames.white,
+      background: colorNames.mercury,
+      icon: colorNames.white,
     },
     boxBackground: colorNames.white,
     headerLine: colorNames.mercury,
@@ -51,10 +56,10 @@ export const themeDark = {
       text: colorNames.white,
     },
     themeSwitch: {
-    background: colorNames.doveGray,
-    icon: colorNames.mineShaft,
+      background: colorNames.doveGray,
+      icon: colorNames.mineShaft,
     },
     boxBackground: colorNames.mineShaftLighter,
     headerLine: colorNames.tundora,
   },
-  };
+};

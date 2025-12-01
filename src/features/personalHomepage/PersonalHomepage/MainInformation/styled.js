@@ -5,8 +5,14 @@ export const Wrapper = styled.header`
   grid-template-columns: auto 1fr;
   grid-gap: 64px;
   align-items: center;
-  max-width: 1098px;
-  height: 384px;
+  //max-width: 1098px;
+  //height: 384px;
+
+@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: 1fr;
+    font-size: 14px;
+    margin-top: 12px;
+}
 `;
 
 export const Photo = styled.img`

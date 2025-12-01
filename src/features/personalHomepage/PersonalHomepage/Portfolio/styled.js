@@ -2,8 +2,14 @@ import styled from "styled-components";
 import { ReactComponent as GithubIcon } from "./github.svg";
 
 export const Section = styled.section`
-  width: 1216px;
+  //width: 1216px;
   margin-top: 73px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: 1fr;
+    font-size: 14px;
+    margin-top: 12px;
+  }
 `;
 
 export const Header = styled.header`
