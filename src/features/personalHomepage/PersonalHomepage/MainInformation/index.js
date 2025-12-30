@@ -1,4 +1,5 @@
 import { Wrapper, Photo, Intro, Name, Content } from "./styled";
+import { Button } from "../../../../common/Button";
 
 export const MainInformation = () => (
   <Wrapper>
@@ -7,6 +8,7 @@ export const MainInformation = () => (
       <Intro>THIS IS</Intro>
       <Name>Bartłomiej Kamela</Name>
       <Content>I am junior Frontend Developer with React, currently looking for new job opportunities.</Content>
+      <Button />
     </div>
   </Wrapper>
 );
