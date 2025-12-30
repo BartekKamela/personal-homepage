@@ -6,6 +6,7 @@ import {
   selectRepositoriesStatus,
 } from "../../personalHomepageSlice";
 import { Section, Header, StyledGithubIcon, Title, SubTitle } from './styled';
+import { ErrorPage } from "./ErrorPage";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
@@ -16,10 +17,6 @@ export const Portfolio = () => {
     dispatch(fetchRepositories());
   }, [dispatch]);
 
-  if (status === "success") {
-    console.log(repositories);
-  }
-
   return (
     <Section>
       <Header>
@@ -27,6 +24,7 @@ export const Portfolio = () => {
         <Title>Portfolio</Title>
         <SubTitle>My recent projects</SubTitle>
       </Header>
+      {status === "error" && <ErrorPage />}
     </Section>
   )
 }
