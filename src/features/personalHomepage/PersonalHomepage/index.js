@@ -14,7 +14,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={(
           <>
-            My skillset includes
+            My skillset includes 🛠️
           </>
         )}
         skills={skills}
@@ -22,7 +22,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={(
           <>
-            What I want to learn next
+            What I want to learn next 🚀
           </>
         )}
         skills={nextSkills}
