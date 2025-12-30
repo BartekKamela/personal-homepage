@@ -35,6 +35,7 @@ export const themeLight = {
     textPrimary: colorNames.mineShaft,
     accent: colorNames.dodgerBlue,
     white: colorNames.white,
+    iron: colorNames.ironTransparent,
     site: {
       background: colorNames.whiteLilac,
       text: colorNames.slateGray,
@@ -54,7 +55,8 @@ export const themeDark = {
     primary: colorNames.dodgerBlue,
     textPrimary: colorNames.white,
     accent: colorNames.scienceBlue,
-    white: colorNames.white,
+    white: "rgba(54, 54, 54, 0.7)",
+    iron: "rgba(209, 213, 219, 0.1)",
     site: {
       background: colorNames.mineShaft,
       text: colorNames.white,
