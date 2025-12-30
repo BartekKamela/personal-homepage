@@ -7,6 +7,7 @@ import {
 } from "../../personalHomepageSlice";
 import { Section, Header, StyledGithubIcon, Title, SubTitle } from './styled';
 import { ErrorPage } from "./ErrorPage";
+import { Loader } from './Loader';
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ export const Portfolio = () => {
         <Title>Portfolio</Title>
         <SubTitle>My recent projects</SubTitle>
       </Header>
+      {status === "loading" && <Loader />}
       {status === "error" && <ErrorPage />}
     </Section>
   )
