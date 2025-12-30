@@ -4,6 +4,7 @@ import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { skills, nextSkills } from "./skillsData";
 import { Portfolio } from "./Portfolio";
+import { Footer } from "./Footer";
 
 export const PersonalHomepage = () => (
   <Container>
@@ -27,6 +28,7 @@ export const PersonalHomepage = () => (
         skills={nextSkills}
       />
       <Portfolio />
+      <Footer />
     </main>
   </Container>
 );
